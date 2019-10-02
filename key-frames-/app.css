@@ -1,0 +1,146 @@
+body {
+	background-color: #222;
+	margin: 0;
+	/*animation-name: sky;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-timing-function: linear;*/
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+}
+/*.container {
+  display: flex;
+  margin: 0 auto;
+}
+.img-background {
+  flex-direction: row;
+  margin: 0 20px;
+}
+
+img {
+	  width: 300px;
+  height: 300px;
+}
+div.img-background * {
+  transition: all 0.6s cubic-bezier(1, 0, 0, 1);
+}
+
+.img-background i {
+	transform: translate(-50%, -50%) scale(0);
+}
+
+.img1 {
+	background: blue;
+}
+
+.img2 {
+	background: #fff;
+}
+
+.img3 {
+	background: orange;
+}
+
+.img-background:hover img {
+	opacity: .5;
+	filter: grayscale(100%);
+}
+
+.img-background:hover i {
+	transform: translate(-50%, -50%) scale(3);
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+}*/
+
+
+/*.sun {
+	animation-name: ssun;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 5s;
+	animation-delay: 0;
+	border-radius: 50%;
+	background: yellow;
+	width: 200px;
+	height: 200px;
+}
+
+.grass {
+	background: green;
+	height: calc(100vh - 200px);
+	width: 100%;
+	position: absolute;
+}
+
+
+@keyframes sky {
+	0% {
+		background: #222;
+	}
+	10% {
+		background: pink;
+	}
+	30% {
+		background: blue;
+	}
+	70% {
+
+		background: blue;
+	}
+	90% {
+		background: pink;
+	}
+	100% {
+		background: #222;
+	}
+}
+
+@keyframes ssun {
+	0% {
+		transform: translate(-200px, 200px);
+		background: red;
+	}
+	25% {
+		transform: translate(330px, 0);
+		background: yellow;
+	}
+	50% {
+		transform: translate(860px, -50px);
+	}
+	75% {
+		transform: translate(1390px, 0px);
+		background: yellow;
+	}
+	100% {
+		transform: translate(1920px, 200px);
+		background: red;
+	}
+}*/
+
+.loader {
+	animation: loader infinite 1s linear;
+	margin: 0 auto;
+	background: #ccc;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 16px solid grey;
+	border-top-color: red;
+	border-bottom-color: red;
+	/*border-left-color: black;
+	border-right-color: yellow;*/
+}
+
+
+@keyframes loader {
+	0% {
+		transform: rotate(360deg);
+	}
+}
